@@ -14,8 +14,8 @@ def get_numbers(numbers):
     return count
 print('Number of elements: ', get_numbers(numbers))
 
-x = int(input('Enter  number of first element: '))
-y = int(input('Enter number of second element: '))
+x = int(input('Enter  position of first element: '))
+y = int(input('Enter position of second element: '))
 
 for i in range(len(numbers)):
     mult = numbers[x -1]*numbers[y - 1]
