@@ -59,6 +59,7 @@ def game(board):
                 break
             if counter == 9:
                 print('Победила, ДРУЖБА)')
+                break
         design_board(board)
 game(board)
 
